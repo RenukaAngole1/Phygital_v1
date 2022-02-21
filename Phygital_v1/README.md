@@ -1,0 +1,1 @@
+<p class="has-line-data" data-line-start="0" data-line-end="1">This is the Phygital Lib and with it you can create wonderful Robotic projects through Python. The very purpose of this Lib is to multiply the power of Python features with the Robotic features, and create very complex and interesting projects</p>
