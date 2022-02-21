@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'Phygital_v1',         # How you named your package folder (MyLib)
   packages = ['Phygital_v1'],   # Chose the same as "name"
-  version = '0.9',      # Start with a small number and increase it with every change you make
+  version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This is the Lib to work on Python & Robotics projects',   # Give a short description about your library
   author = 'ME',                   # Type in your name
   author_email = 'renuka.angole@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/RenukaAngole1/Phygital_V0',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/RenukaAngole1/Phygital_V0/archive/0.4.tar.gz',    # I explain this later on
+  url = 'https://github.com/RenukaAngole1/Phygital_v1',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/RenukaAngole1/Phygital_v1/archive/0.1.tar.gz',    # I explain this later on
   keywords = ['Robotics', 'Sensors', 'Motors'],   # Keywords that define your package best
   install_requires=[ 'pyserial' ,'requests'          # I get to this in a second
           
