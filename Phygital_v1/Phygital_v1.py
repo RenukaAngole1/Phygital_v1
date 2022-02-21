@@ -40,7 +40,7 @@ global Auth_Key1
 #def serialInit(PortName):
 
 
-SendData = list("&@000000000000000000000000000000000000^")
+SendData = list("&@0000000000000000000000000000000000000000000^")
 global receivedData
 global data1
 global data
@@ -456,10 +456,10 @@ def aRead(PinNum):
         A6Val=int(AData[29:33])
         return A6Val
     if(PinNum=='A6'):
-        A7Val=int(AData[33:37])
+        A7Val=int(AData[37:41])
         return A7Val
     if(PinNum=='A7'):
-        A8Val=int(AData[37:41])
+        A8Val=int(AData[41:45])
         return A8Val
 
 
